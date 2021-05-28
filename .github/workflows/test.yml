@@ -28,9 +28,6 @@ jobs:
       - name: Test
         run: go test -v ./...
 
-      - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v2.5.2
-
 # on: [push, pull_request]
 # name: Test
 # jobs:
